@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		FB4A9214243DC220000C050D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A9213243DC220000C050D /* AppDelegate.swift */; };
 		FB4A9216243DC220000C050D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A9215243DC220000C050D /* SceneDelegate.swift */; };
-		FB4A9218243DC220000C050D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A9217243DC220000C050D /* ViewController.swift */; };
+		FB4A9218243DC220000C050D /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A9217243DC220000C050D /* ParentViewController.swift */; };
 		FB4A921B243DC220000C050D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4A9219243DC220000C050D /* Main.storyboard */; };
 		FB4A921D243DC221000C050D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A921C243DC221000C050D /* Assets.xcassets */; };
 		FB4A9220243DC221000C050D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4A921E243DC221000C050D /* LaunchScreen.storyboard */; };
+		FB4A9228243DC297000C050D /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A9227243DC297000C050D /* ChildViewController.swift */; };
+		FB4A922A243DC3A2000C050D /* CustomModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A9229243DC3A2000C050D /* CustomModalTransition.swift */; };
+		FB4A922C243DC49A000C050D /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A922B243DC49A000C050D /* PresentationController.swift */; };
+		FB4A922E243DCBB8000C050D /* PresentAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A922D243DCBB8000C050D /* PresentAnimationManager.swift */; };
+		FB4A9230243DE5D2000C050D /* DismissAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A922F243DE5D2000C050D /* DismissAnimationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB4A9210243DC220000C050D /* CustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4A9213243DC220000C050D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4A9215243DC220000C050D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB4A9217243DC220000C050D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB4A9217243DC220000C050D /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		FB4A921A243DC220000C050D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB4A921C243DC221000C050D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4A921F243DC221000C050D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4A9221243DC221000C050D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4A9227243DC297000C050D /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		FB4A9229243DC3A2000C050D /* CustomModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalTransition.swift; sourceTree = "<group>"; };
+		FB4A922B243DC49A000C050D /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		FB4A922D243DCBB8000C050D /* PresentAnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimationManager.swift; sourceTree = "<group>"; };
+		FB4A922F243DE5D2000C050D /* DismissAnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				FB4A9213243DC220000C050D /* AppDelegate.swift */,
 				FB4A9215243DC220000C050D /* SceneDelegate.swift */,
-				FB4A9217243DC220000C050D /* ViewController.swift */,
+				FB4A9217243DC220000C050D /* ParentViewController.swift */,
 				FB4A9219243DC220000C050D /* Main.storyboard */,
 				FB4A921C243DC221000C050D /* Assets.xcassets */,
 				FB4A921E243DC221000C050D /* LaunchScreen.storyboard */,
 				FB4A9221243DC221000C050D /* Info.plist */,
+				FB4A9227243DC297000C050D /* ChildViewController.swift */,
+				FB4A9229243DC3A2000C050D /* CustomModalTransition.swift */,
+				FB4A922B243DC49A000C050D /* PresentationController.swift */,
+				FB4A922D243DCBB8000C050D /* PresentAnimationManager.swift */,
+				FB4A922F243DE5D2000C050D /* DismissAnimationManager.swift */,
 			);
 			path = CustomTransition;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4A9218243DC220000C050D /* ViewController.swift in Sources */,
+				FB4A922A243DC3A2000C050D /* CustomModalTransition.swift in Sources */,
+				FB4A9218243DC220000C050D /* ParentViewController.swift in Sources */,
 				FB4A9214243DC220000C050D /* AppDelegate.swift in Sources */,
 				FB4A9216243DC220000C050D /* SceneDelegate.swift in Sources */,
+				FB4A9228243DC297000C050D /* ChildViewController.swift in Sources */,
+				FB4A922E243DCBB8000C050D /* PresentAnimationManager.swift in Sources */,
+				FB4A922C243DC49A000C050D /* PresentationController.swift in Sources */,
+				FB4A9230243DE5D2000C050D /* DismissAnimationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

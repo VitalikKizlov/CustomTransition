@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChildViewController.swift
 //  CustomTransition
 //
 //  Created by Vitalii Kizlov on 08.04.2020.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ChildViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
 }
-
